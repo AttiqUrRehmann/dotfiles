@@ -1,0 +1,36 @@
+" ==================================
+" General settings
+" ==================================
+
+set number
+set relativenumber
+
+" =================================
+" Plugins
+" =================================
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'preservim/nerdtree'
+" Fold nested code
+Plug 'tmhedberg/SimpylFold'
+" Real time error dectection. Ensure pylint is installed
+Plug 'dense-analysis/ale'
+" Git inside vim
+Plug 'tpope/vim-fugitive'
+" Theme
+Plug 'joshdick/onedark.vim'
+" Syntax highlighting
+Plug 'sheerun/vim-polyglot'
+" Automatically closing parenthesis and quotes
+Plug 'Raimondi/delimitMate'
+" Python indentation
+Plug 'vim-scripts/indentpython.vim'
+
+call plug#end()
+
+" ================================
+" Setting colorscheme to onedark
+" ===============================
+
+colorscheme onedark
