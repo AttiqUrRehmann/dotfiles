@@ -26,6 +26,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'Raimondi/delimitMate'
 " Python indentation
 Plug 'vim-scripts/indentpython.vim'
+" Jupyter vim
+Plug 'jupyter-vim/jupyter-vim'
 
 call plug#end()
 
