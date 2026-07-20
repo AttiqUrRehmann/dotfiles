@@ -1,0 +1,11 @@
+[user]
+	name = Atiq Ur Rehman
+	email = atiqmarwat12@gmail.com
+
+[alias]
+	co = checkout
+	cob = checkout -b
+	s = status
+	br = branch
+	ps = push
+	pl = pull
