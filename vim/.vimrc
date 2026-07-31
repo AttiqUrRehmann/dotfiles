@@ -30,8 +30,14 @@ Plug 'vim-scripts/indentpython.vim'
 Plug 'jupyter-vim/jupyter-vim'
 " Code completion
 Plug 'davidhalter/jedi-vim'
+" Run code in ipython 
+Plug 'jpalardy/vim-slime', { 'for': 'python' }
+Plug 'hanschen/vim-ipython-cell', { 'for': 'python' }
 
 call plug#end()
+
+" Ntree map
+nnoremap <C-n> :NERDTreeToggle<CR>
 
 " ================================
 " Setting colorscheme to onedark
