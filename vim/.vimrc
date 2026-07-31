@@ -29,7 +29,7 @@ Plug 'vim-scripts/indentpython.vim'
 " Jupyter vim
 Plug 'jupyter-vim/jupyter-vim'
 " Code completion
-Plugin 'davidhalter/jedi-vim'
+Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
