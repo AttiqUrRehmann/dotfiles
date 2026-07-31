@@ -28,6 +28,8 @@ Plug 'Raimondi/delimitMate'
 Plug 'vim-scripts/indentpython.vim'
 " Jupyter vim
 Plug 'jupyter-vim/jupyter-vim'
+" Code completion
+Plugin 'davidhalter/jedi-vim'
 
 call plug#end()
 
